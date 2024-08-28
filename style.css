@@ -1,0 +1,33 @@
+#point {
+  margin: 5px;
+  border: 3px solid black;
+  text-align: center;
+}
+.RNG_boxes {
+  margin: 0.5%;
+  width: 11.5%;
+  border: 2px solid black;
+}
+#box {
+  display: flex;
+}
+.res {
+  text-align: center;
+  font-size: x-large;
+  margin: 2px;
+}
+.coolbar {
+  appearance: none;
+  height: 24px;
+  width: 100%;
+  display: none;
+}
+.coolbar::-webkit-progress-bar {
+  background-color:white;
+  border: 1px solid black;
+}
+.coolbar::-webkit-progress-value {
+  background-color:gray;
+  transition:0ms;
+  overflow: hidden;
+}
